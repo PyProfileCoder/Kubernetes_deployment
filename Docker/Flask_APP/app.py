@@ -11,7 +11,7 @@ def about():
     return 'This is the about page.'
 
 @app.route('/render')
-def home():
+def render_home():
     return render_template('index.html', message='Hello, Flask!')
 
 if __name__ == '__main__':
